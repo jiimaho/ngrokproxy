@@ -1,0 +1,20 @@
+{
+  "name": "ngrokproxy",
+  "version": "1.0.0",
+  "description": "Simple express proxy to ignore SSL-Cert for testing https through ngrok. Cred to https://github.com/inconshreveable/ngrok/issues/448#issuecomment-414214242",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ngrok",
+    "proxy",
+    "ssl"
+  ],
+  "author": "Jim Aho",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1"
+  }
+}
